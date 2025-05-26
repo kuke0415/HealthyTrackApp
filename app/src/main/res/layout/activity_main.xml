@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今天: 2025-05-22"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_water"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="喝水"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="锻炼"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_sleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="早睡"/>
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看历史"
+        android:layout_marginTop="24dp"/>
+    <Button
+        android:id="@+id/btn_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图表统计"
+        android:layout_marginTop="16dp"/>
+
+
+
+</LinearLayout>
