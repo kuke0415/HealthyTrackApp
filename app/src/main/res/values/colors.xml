@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_700">#018786</color>
+
+
+    <color name="green_light">#A5D6A7</color>
+    <color name="green_primary">#4CAF50</color>
+    <color name="green_dark">#388E3C</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#666666</color>
+
+
+    <color name="chart_bar">#42A5F5</color>
+    <color name="chart_text">#333333</color>
+
+
+    <color name="ripple_light">#33FFFFFF</color>
 </resources>

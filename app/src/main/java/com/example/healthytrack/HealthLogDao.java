@@ -14,7 +14,7 @@ public interface HealthLogDao {
     HealthLog getLogByDate(String date);
 
     @Query("SELECT * FROM HealthLog ORDER BY date DESC")
-    List<HealthLog> getAllLogs(); // ← ← ← 必须添加这行！
+    List<HealthLog> getAllLogs();
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertOrUpdate(HealthLog log);

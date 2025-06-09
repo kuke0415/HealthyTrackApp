@@ -15,5 +15,5 @@ public class HealthLog {
     public boolean exercise;
     public boolean sleep;
 
-    public HealthLog() {} // 必须有无参构造函数，Room 用它创建对象
+    public HealthLog() {}
 }

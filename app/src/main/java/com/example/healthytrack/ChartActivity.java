@@ -41,12 +41,12 @@ public class ChartActivity extends AppCompatActivity {
                 if (log.exercise) score++;
                 if (log.sleep) score++;
                 entries.add(new BarEntry(i, score));
-                labels.add(log.date.substring(5)); // 只显示 MM-DD
+                labels.add(log.date.substring(5));
             }
 
             runOnUiThread(() -> {
                 BarDataSet dataSet = new BarDataSet(entries, "健康打卡得分 (最高3分)");
-                dataSet.setColor(Color.BLUE);  // 导入 android.graphics.Color
+                dataSet.setColor(Color.BLUE);
 
                 BarData barData = new BarData(dataSet);
                 barChart.setData(barData);
